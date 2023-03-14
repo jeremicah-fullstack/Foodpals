@@ -1,0 +1,7 @@
+export const searchRecipes = async (query) => {
+  const response = await fetch(
+    `${SPOONACULAR_BASE_URL}?apiKey=${process.env.NEXT_APP_API_KEY}&query=${query}`
+  );
+  const data = await response.json();
+  return data;
+};

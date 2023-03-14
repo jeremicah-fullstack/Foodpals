@@ -1,0 +1,8 @@
+//Global Variables
+@import "../styles/globals.scss", "../styles/variables.scss";
+
+//Components
+@import "./components/Sidebar.module.scss",
+  "../styles/components/Banner.module.scss",
+  "../styles/components/SinglePage.module.scss",
+  "../styles/components/Tabs.module.scss"; ;

@@ -1,0 +1,33 @@
+.banner {
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 65vh;
+    border-radius: 8px;
+    background-color: #535252c7;
+    background-blend-mode: overlay;
+
+    .img {
+      max-width: 100%; /* allow the image to scale down to fit the container */
+      height: auto;
+      background: rgba(145, 62, 6, 0.493);
+      padding: 5px 10px;
+    }
+
+    p {
+      font-size: 3rem;
+    }
+
+    span {
+      font-family: "Montserrat", Helvet;
+      font-size: 1.1rem;
+    }
+  }
+}
